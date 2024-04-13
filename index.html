@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+     <link rel="stylesheet" href="icon&slider/daisyui/dist/full.css">
+     <link rel="stylesheet" href="icon&slider/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+</head>
+
+<body>
+    <main class="row font-primary bg-[#F7F3F2] overflow-hidden">
+        <header
+            class=" absolute top-0 w-full h-20 xl:fixed xl:right-0 xl:w-52 xl:h-full bg-[#440f45] flex xl:flex-col items-center xl:items-start justify-around">
+            <div class="scale-50 md:scale-75 xl:scale-100 xl:pl-14 ">
+                <a class="flex items-center" href="#">
+                    <div class="w-4 h-20 rounded-xl rotate-[20deg] bg-[#FF6448]"></div>
+                    <div class="w-8 h-4 rounded-xl mt-4 bg-white"></div>
+                </a>
+            </div>
+            <nav>
+                <ul
+                    class="flex xl:flex-col xl:pl-10 xl:relative xl:before:absolute xl:before:left-[-8%] xl:before:top-0 xl:before:w-8 xl:before:h-full xl:before:bg-[#FF6448]">
+                    <li class="group my-5 mx-2 md:mx-5 xl:mx-0 duration-300 hover:scale-110 flex items-center">
+                        <div
+                            class="hidden xl:flex text-white duration-300 -translate-x-20 opacity-0 group-hover:opacity-100 group-hover:-translate-x-9">
+                            ➡</div><a href="#" class="text-white text-xs md:text-xl lg:text-2xl">Home</a>
+                    </li>
+                    <li class="group my-5 mx-2 md:mx-5 xl:mx-0 duration-300 hover:scale-110 flex items-center">
+                        <div
+                            class="hidden xl:flex text-white duration-300 -translate-x-20 opacity-0 group-hover:opacity-100 group-hover:-translate-x-9">
+                            ➡</div><a href="#about-me" class="text-white text-xs md:text-xl lg:text-2xl">About Me</a>
+                    </li>
+                    <li class="group my-5 mx-2 md:mx-5 xl:mx-0 duration-300 hover:scale-110 flex items-center">
+                        <div
+                            class="hidden xl:flex text-white duration-300 -translate-x-20 opacity-0 group-hover:opacity-100 group-hover:-translate-x-9">
+                            ➡</div><a href="#skills" class="text-white text-xs md:text-xl lg:text-2xl">Skills</a>
+                    </li>
+                    <li class="group my-5 mx-2 md:mx-5 xl:mx-0 duration-300 hover:scale-110 flex items-center">
+                        <div
+                            class="hidden xl:flex text-white duration-300 -translate-x-20 opacity-0 group-hover:opacity-100 group-hover:-translate-x-9">
+                            ➡</div><a href="#porto" class="text-white text-xs md:text-xl lg:text-2xl">Portofilo</a>
+                    </li>
+                    <li class="group my-5 mx-2 md:mx-5 xl:mx-0 duration-300 hover:scale-110 flex items-center">
+                        <div
+                            class="hidden xl:flex text-white duration-300 -translate-x-20 opacity-0 group-hover:opacity-100 group-hover:-translate-x-9">
+                            ➡</div><a href="#contact" class="text-white text-xs md:text-xl lg:text-2xl">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+            </div>
+        </header>
+        <section class=" row xl:h-[100vh] pb-20 xl:pb-0 p-8 justify-around items-center mt-20 xl:mt-0 xl:mr-52">
+            <figure class="mb-10 xl:mb-0"><img src="img/img.png" alt="my-photo"></figure>
+            <div class="group w-96 h-96 relative parent">
+                <div class="absolute w-full h-full z-10 font-bold text-xl xl:text-4xl text-center *:my-3 mt-7 p-5">
+                    <p>
+                        Hey there ! My name is
+                    </p>
+                    <h1 class="text-5xl md:text-7xl text-[#440f45]">
+                        <svg class="w-full translate-y-6 translate-x-14 md:translate-x-0 ">
+                            <text y="50%" class="fill-transparent stroke-[#440f45] stroke-2 animateTxt">
+                                Ali Mohebbi
+                            </text>
+                        </svg>
+                    </h1>
+                    <p>
+                        I am a front-end developer from Shiraz .
+                    </p>
+                </div>
+                <div class="absolute w-full h-full top-0 start-0 bg-[#440f45b5] clip  rounded-xl"></div>
+            </div>
+        </section>
+        <section class="row p-16 xl:mr-52" id="about-me">
+            <h2 class="text-3xl md:text-5xl font-bold text-[#FF6448]">Who is this guy ?</h2>
+            <p class="mt-10 lg:ms-80 text-xl font-bold">I am <span class="text-2xl text-[#440f45]">Ali Mohebbi</span>. I was born on February 2, 2003 and I live in Shiraz. I am a computer engineering student
+                and a front-end programmer, and I am a creative person or so-called mastermind. Also, the most important
+                reason why I became a programmer is that I love challenges and am always looking for learning and
+                improvement.</p>
+        </section>
+        <section class="row flex-col xl:mr-52 p-16" id="skills">
+            <h2 class="text-3xl md:text-5xl font-bold mb-20 text-[#FF6448]">My Skills</h2>
+            <div class="row items-center justify-around">
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/html_prev_ui.png" alt="html"> <figcaption class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">HTML</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/css_prev_ui.png" alt="css"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">CSS</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/sass_prev_ui.png" alt="sass"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">SASS</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/bootstrap_prev_ui.png" alt="bootstrap"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">BOOTSTRAP</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/tailwind_prev_ui.png" alt="tailwind"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7" >TAILWIND</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/js.png" alt="js"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">JAVA SCRIPT</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/ts.png" alt="ts"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">TYPE SCRIPT</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/git_prev_ui.png" alt="git"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">GIT</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/react_prev_ui.png" alt="react"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">REACT</figcaption></figure>
+                <figure class="relative group w-1/5 lg:w-1/12 my-5 justify-center"><img class="anim" src="img/logos/next-js-icon-2048x2048-5dqjgeku.png" alt="next.js"> <figcaption  class="absolute duration-300 -bottom-10 left-[50%] translate-x-[-50%] opacity-0 group-hover:opacity-100 group-hover:-bottom-7">NEXT</figcaption></figure>
+            </div>
+        </section>
+        <section class="xl:mr-52 p-16 row" id="porto">
+            <h2 class="text-3xl md:text-5xl font-bold mb-10 text-[#FF6448]">Follow me until I show you some examples of my works</h2>
+            <div class="carousel w-full">
+                <div id="item1" class="carousel-item w-full">
+                  <img src="img/logos/img-1.png" class="w-full" />
+                </div> 
+                <div id="item2" class="carousel-item w-full">
+                  <img src="img/logos/img-2.png" class="w-full" />
+                </div> 
+                <div id="item3" class="carousel-item w-full">
+                  <img src="img/logos/img-3.png" class="w-full" />
+                </div> 
+                <div id="item4" class="carousel-item w-full">
+                  <img src="img/logos/img-4.jpg" class="w-full" />
+                </div>
+              </div> 
+              <div class="flex justify-center w-full py-2 gap-2 mt-5 mb-20">
+                <a href="#item1" class="btn btn-xs">1</a> 
+                <a href="#item2" class="btn btn-xs">2</a> 
+                <a href="#item3" class="btn btn-xs">3</a> 
+                <a href="#item4" class="btn btn-xs">4</a>
+              </div>
+              <a href="https://github.com/Ali-Mohebbi-Developer" class="text-3xl text-[#440f45] hover:text-[#440f45c1] duration-300">See my works on Github <i class="bi bi-github"></i></a>
+        </section>
+        <footer class="row xl:mr-52 p-16" id="contact">
+           <div class="row text-[#FF6448] justify-between items-center text-xl md:text-3xl relative after:absolute after:-bottom-3 after:w-full after:h-[2px] after:bg-[#ff63489d] mb-5">
+            <div class="flex *:mr-3">
+                <a href="https://www.instagram.com/ali_mohebbi_developer/" class="hover:text-[#ff6348d1] duration-300">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ali-mohebbi-7165b7265/" class="hover:text-[#ff6348d1] duration-300">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/Ali-Mohebbi-Developer" class="hover:text-[#ff6348d1] duration-300">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <i class="bi bi-envelope me-4"></i>
+                <p>alimohebbi565@gmail.com</p>
+            </div>
+           </div>
+           <div class="row text-[#FF6448] justify-between items-center text-xl md:text-3xl ">
+            <p class="font-bold">Ali Mohebbi</p>
+            <div class="flex">
+                <i class="bi bi-telephone me-4"></i>
+                <p>09333158879</p>
+            </div>
+           </div>
+        </footer>
+    </main>
+</body>
+
+</html>
