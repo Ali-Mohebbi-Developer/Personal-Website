@@ -12,6 +12,6 @@
 
 - How to reach me : with my [instagram](https://www.instagram.com/Ali_Mohebbi_Developer) and [linkedin](https://www.linkedin.com/in/ali-mohebbi-7165b7265/)
 
-![Screenshot (54)](https://github.com/Ali-Mohebbi-Developer/Personal-Website/assets/126477170/31ed82af-44ba-4068-9d27-50777e37bf8b)
+![Screenshot (54)](https://github.com/Ali-Mohebbi-Developer/Personal-Website/assets/126477170/49351759-2403-4a18-bbf4-765769e24f8a)
 
-![Screenshot (53)](https://github.com/Ali-Mohebbi-Developer/Personal-Website/assets/126477170/ff222e31-cd1b-4690-949e-d68cf9d23499)
+![Screenshot (53)](https://github.com/Ali-Mohebbi-Developer/Personal-Website/assets/126477170/b878478b-663c-45c8-b0d4-8a769f8771c3)
